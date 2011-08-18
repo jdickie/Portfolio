@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Ten package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Twenty Ten 1.2\n"
+"Project-Id-Version: Grantsite\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/twentyten\n"
 "POT-Creation-Date: 2011-06-13 13:27:43+00:00\n"
 "MIME-Version: 1.0\n"
@@ -381,23 +381,16 @@ msgid "Blog Archives"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "Twenty Ten"
+msgid "Grantsite"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"The 2010 theme for WordPress is stylish, customizable, simple, and readable "
-"-- make it yours with a custom menu, header image, and background. Twenty "
-"Ten supports six widgetized areas (two in the sidebar, four in the footer) "
-"and featured images (thumbnails for gallery posts and custom header images "
-"for posts and pages). It includes stylesheets for print and the admin Visual "
-"Editor, special styles for posts in the \"Asides\" and \"Gallery\" "
-"categories, and has an optional one-column page template that removes the "
-"sidebar."
-msgstr ""
+"Originally developed by the Wordpress Team as Twenty Ten 1.2. This theme "
+"is tweak ""
 
 #. Author of the plugin/theme
-msgid "the WordPress team"
+msgid "Grant Dickie"
 msgstr ""
 
 #. Tags of the plugin/theme

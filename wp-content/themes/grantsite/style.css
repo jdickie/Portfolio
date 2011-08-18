@@ -560,7 +560,10 @@ div.menu li {
 .page-title a:hover {
 	color: #ff4b33;
 }
-#content .entry-title {
+#content h1.entry-title {
+	display: none;
+}
+#content .entry-title a {
 	color: #000;
 	font-size: 21px;
 	font-weight: bold;
