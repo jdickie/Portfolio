@@ -26,22 +26,25 @@
 				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<?php if ( is_front_page() ) { ?>
 						<div class="entry-content">
-							<?php the_content(); ?>
+							<!-- vslider -->
+							<?php if(function_exists('vslider')){ vslider('OnlineProjects'); }?>
 							<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
-							<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
+							
 						</div>
+						<hr />
+							<?php the_content(); ?>
 					<?php } else { ?>
 						<h1 class="entry-title"><?php the_title(); ?></h1>
 						<div class="entry-content">
 							<?php the_content(); ?>
 							<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
-							<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
+							
 						</div>
 					<?php } ?>
 
 					<!-- .entry-content -->
 				</div><!-- #post-## -->
 
-				<?php comments_template( '', true ); ?>
+			
 
 <?php endwhile; // end of the loop. ?>

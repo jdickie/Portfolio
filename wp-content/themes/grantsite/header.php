@@ -61,7 +61,7 @@
 		<div id="masthead">
 			<div id="branding" role="banner">
 				<?php $heading_tag = ( is_home() || is_front_page() ) ? 'h1' : 'div'; ?>
-					<img alt="Grant Dickie: Web Development" src="<?php echo home_url(); ?>/wp-content/uploads/2011/08/grantlogo.jpg" />
+					<img alt="Grant Dickie: Web Development" src="<?php echo home_url(); ?>/wp-content/uploads/2011/08/grantlogosmall.jpg" />
 				
 				<?php
 					// Check if this is a post or page, if it has a thumbnail, and if it's a big one

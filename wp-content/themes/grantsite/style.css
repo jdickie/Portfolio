@@ -167,13 +167,16 @@ div.menu,
 #wrapper {
 	margin: 0 auto;
 	width: 940px;
+	
+}
+#branding {
+	background: #d2b89c;
 }
 #wrapper {
 	background: #aadde1;
 	margin-top: 20px;
 	padding: 0 20px;
 }
-
 /* Structure the footer area */
 #footer-widget-area {
 	overflow: hidden;
@@ -360,7 +363,6 @@ a:hover {
 
 /* This is the custom header image */
 #branding img {
-	width:100%;
 	display: block;
 	
 }
@@ -526,7 +528,8 @@ div.menu li {
 	background: #f2f7fc;
 }
 .hentry {
-	margin: 0 0 48px 0;
+	margin: 0 0 0px 0;
+	width:910px;
 }
 .home .sticky {
 	background: #f2f7fc;
@@ -1319,6 +1322,7 @@ code {
 	.widget-area {
 		display: none !important;
 	}
+	
 	#container,
 	#header,
 	#footer {
