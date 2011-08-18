@@ -531,6 +531,24 @@ div.menu li {
 	margin: 0 0 0px 0;
 	width:910px;
 }
+.hentry div {
+	float: left;
+}
+.hentry .skills{
+	padding-bottom: 0px;
+	padding-left:10px;
+	padding-right: 29px;
+	padding-top: 0px;
+	width: 220px;
+} 
+.hentry .current-post {
+	border-left: 1px solid #FFF;
+	padding-left: 29px;
+	padding-right: 29px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 200px;
+}
 .home .sticky {
 	background: #f2f7fc;
 	border-top: 4px solid #000;
