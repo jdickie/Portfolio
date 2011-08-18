@@ -169,7 +169,7 @@ div.menu,
 	width: 940px;
 }
 #wrapper {
-	background: #fff;
+	background: #aadde1;
 	margin-top: 20px;
 	padding: 0 20px;
 }
@@ -454,7 +454,7 @@ div.menu li {
 #main {
 	clear: both;
 	overflow: hidden;
-	padding: 40px 0 0 0;
+	padding: 10px 0 0 0;
 }
 #content {
 	margin-bottom: 36px;
@@ -1279,6 +1279,7 @@ code {
 		background: none !important;
 	}
 	#wrapper {
+		background: #d2b89c;
 		clear: both !important;
 		display: block !important;
 		float: none !important;
