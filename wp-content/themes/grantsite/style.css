@@ -27,6 +27,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
+	font-family: helvetica, sans-serif;
 }
 body {
 	line-height: 1;
@@ -542,6 +543,14 @@ div.menu li {
 	width: 220px;
 } 
 .hentry .current-post {
+	border-left: 1px solid #FFF;
+	padding-left: 29px;
+	padding-right: 29px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 200px;
+}
+.hentry .contact-front {
 	border-left: 1px solid #FFF;
 	padding-left: 29px;
 	padding-right: 29px;
@@ -1379,4 +1388,30 @@ code {
 	.home .sticky {
 		border: none;
 	}
+}
+
+/* CV Section 
+---------------------------- */
+
+.entry-content .cv {
+	text-align: left;
+	font-size: 15px;
+}
+.entry-content .cv div {
+	float: left;
+	padding: 0px;
+	margin: 10px ;
+}
+.entry-content .cv div.cvSection {
+	border-bottom: 1.5px solid #000;
+	
+}
+.entry-content .cv div.cvSection h1 {
+	font-size: 18px;
+}
+.entry-content .cv div.cvSection div.cvSubSection {
+	
+}
+.entry-content .cv div.cvSection div.cvSubSection span {
+	
 }

@@ -32,7 +32,39 @@
 							
 						</div>
 						<hr />
-							<?php the_content(); ?>
+						<div class="skills">
+						<h2>Skills in Brief</h2>
+							<div class="body">
+								<?php the_content(); ?>
+							</div>
+						</div>
+						<div class="current-post">
+						<h2>Current Post</h2>
+							<div class="body">
+							<?php 
+								$args = array('numberposts' => 3, 'order' => 'DESC');
+								$postslist = get_posts($args);
+							?>
+							<?php foreach ($postslist as $post) :  setup_postdata($post); ?>
+								<div>
+									<?php the_date(); ?>
+									<br />
+									<h3><a><?php the_title(); ?></a></h3>
+									<hr style="width: 20%;" />
+									<?php the_excerpt(); ?>
+								</div>
+							<?php endforeach; ?>
+							</div>
+						</div>
+						<div class="contact-front">
+							<h2>Contact</h2>
+							<div class="body">
+								<span>jgrantd <strong>at</strong> gmail <strong>dot</strong> com</span>
+								<span><a href="http://twitter.com/{screen_name}" class="twitter-follow-button" data-show-count="false">Follow @jgrantd</a>
+								<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></span>
+							</div>
+						</div>
+						<hr style="width: 100%;" />
 					<?php } else { ?>
 						<h1 class="entry-title"><?php the_title(); ?></h1>
 						<div class="entry-content">
