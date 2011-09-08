@@ -46,10 +46,10 @@
 								$postslist = get_posts($args);
 							?>
 							<?php foreach ($postslist as $post) :  setup_postdata($post); ?>
-								<div>
+								<div class="frontpage_post">
 									<?php the_date(); ?>
 									<br />
-									<h3><a><?php the_title(); ?></a></h3>
+									<h3 class="frontpage_post_h3"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 									<hr style="width: 20%;" />
 									<?php the_excerpt(); ?>
 								</div>

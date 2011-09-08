@@ -542,6 +542,15 @@ div.menu li {
 	padding-top: 0px;
 	width: 220px;
 } 
+.hentry .skills h2.sub {
+	padding-left: 1em;
+	font-size: 22px;
+}
+.hentry .skills p {
+	padding: 1em;
+	background: #FFF;
+	float: left;
+}
 .hentry .current-post {
 	border-left: 1px solid #FFF;
 	padding-left: 29px;
@@ -549,6 +558,25 @@ div.menu li {
 	padding-bottom: 0px;
 	padding-top: 0px;
 	width: 200px;
+}
+
+.hentry .current-post div.frontpage_post {
+	background: #FFF;
+	padding: .5em;
+}
+.hentry .current-post div.frontpage_post a {
+	color: #000;
+	text-decoration: none;
+}
+.hentry .current-post div.frontpage_post a:hover {
+	text-decoration: none;
+	color: #FFF;
+	border-bottom: 1px dotted #000;
+}
+.hentry .current-post div.frontpage_post h3.frontpage_post_h3 {
+	padding-left: .5em;
+	font-size: 16px;
+	background: #AADDE1;
 }
 .hentry .contact-front {
 	border-left: 1px solid #FFF;
@@ -1409,9 +1437,13 @@ code {
 .entry-content .cv div.cvSection h1 {
 	font-size: 18px;
 }
-.entry-content .cv div.cvSection div.cvSubSection {
+.entry-content .cv div.cvSection div.cvSubSectionLeft {
 	
 }
-.entry-content .cv div.cvSection div.cvSubSection span {
+.entry-content .cv div.cvSection div.cvSubSectionRight {
+	margin-right: 20px;
+	width: 45%;
+}
+.entry-content .cv div.cvSection div.cvSubSectionRight span {
 	
 }
