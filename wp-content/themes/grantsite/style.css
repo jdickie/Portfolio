@@ -559,7 +559,21 @@ div.menu li {
 	padding-top: 0px;
 	width: 200px;
 }
-
+.hentry.post {
+	background: #FFF;
+	padding: .5em;
+}
+.hentry.post h2.entry-title {
+	background: #e7e7e7;
+	font-size: 16px;
+	text-align: center;
+}
+.hentry.post .entry-content {
+	padding: 1em;
+}
+.hentry.post div {
+	float: none;
+}
 .hentry .current-post div.frontpage_post {
 	background: #FFF;
 	padding: .5em;
