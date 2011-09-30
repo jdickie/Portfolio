@@ -632,7 +632,8 @@ div.menu li {
 	color: #ff4b33;
 }
 #content h1.entry-title {
-	display: none;
+	background: #AADDE1;
+	color: #FFF;
 }
 #content .entry-title a {
 	color: #000;
