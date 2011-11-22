@@ -1472,5 +1472,8 @@ ul.twitter {
 	list-style-type: none;
 }
 li.twitter-item {
-	padding: .5em;
+	background: #FFF;
+	margin-bottom: 12px;
+	padding: 0.5em;
+	
 }

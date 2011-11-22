@@ -66,7 +66,7 @@
 								<span>Latest Tweets: (Just a taste)</span>
 								<span>
 									<?php
-										twitter_messages('jgrantd',4,true);
+										twitter_messages('297483098', 4, true);
 									
 									?>
 								</span>
