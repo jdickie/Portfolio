@@ -33,13 +33,13 @@
 						</div>
 						<hr />
 						<div class="skills">
-						<h2>Skills in Brief</h2>
+						<h2><img style="width: 100%; height: 100%;" src="<?php echo home_url(); ?>/wp-content/themes/grantsite/images/skillsinbrief.jpg" /></h2>
 							<div class="body">
 								<?php the_content(); ?>
 							</div>
 						</div>
 						<div class="current-post">
-						<h2>Current Post</h2>
+						<h2><img style="width: 100%; height: 100%;" src="<?php echo home_url(); ?>/wp-content/themes/grantsite/images/currentposts.jpg" /></h2>
 							<div class="body">
 							<?php 
 								$args = array('numberposts' => 3, 'order' => 'DESC');
@@ -57,11 +57,19 @@
 							</div>
 						</div>
 						<div class="contact-front">
-							<h2>Contact</h2>
+							<h2><img style="width: 100%; height: 100%;" src="<?php echo home_url(); ?>/wp-content/themes/grantsite/images/contactlight.jpg" /></h2>
 							<div class="body">
 								<span>jgrantd <strong>at</strong> gmail <strong>dot</strong> com</span>
 								<span><a href="http://twitter.com/{screen_name}" class="twitter-follow-button" data-show-count="false">Follow @jgrantd</a>
-								<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></span>
+								<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></span><br/>
+								<hr/>
+								<span>Latest Tweets: (Just a taste)</span>
+								<span>
+									<?php
+										twitter_messages('jgrantd',4,true);
+									
+									?>
+								</span>
 							</div>
 						</div>
 						<hr style="width: 100%;" />

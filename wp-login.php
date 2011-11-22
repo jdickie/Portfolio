@@ -362,9 +362,9 @@ if ( defined('RELOCATE') ) { // Move flag is set
 }
 
 //Set a cookie now to see if they are supported by the browser.
-// setcookie(TEST_COOKIE, 'WP Cookie check', 0, COOKIEPATH, COOKIE_DOMAIN);
-// if ( SITECOOKIEPATH != COOKIEPATH )
-// 	setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN);
+setcookie(TEST_COOKIE, 'WP Cookie check', 0, COOKIEPATH, COOKIE_DOMAIN);
+if ( SITECOOKIEPATH != COOKIEPATH )
+	setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN);
 
 // allow plugins to override the default actions, and to add extra actions if they want
 do_action( 'login_init' );

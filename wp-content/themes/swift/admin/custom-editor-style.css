@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_13,.grid_14,.grid_15,.grid_16 {display: inline;float: left;margin-left: 10px;margin-right: 10px;border:dashed 1px #CCC}
+.grid_1  {width:  40px;}
+.grid_2  {width: 100px;}
+.grid_3  {width: 160px;}
+.grid_4  {width: 220px;}
+.grid_5  {width: 280px;}
+.grid_6  {width: 340px;}
+.grid_7  {width: 400px;}
+.grid_8  {width: 460px;}
+.grid_9  {width: 520px;}
+.grid_10 {width: 580px;}
+.grid_11 {width: 640px;}
+.grid_13 {width: 760px;}
+.grid_14 {width: 820px;}
+.grid_15 {width: 880px;}
+.grid_16 {width: 940px;}
+
+div.clear{clear:both;padding:5px 0; display:block;}
+blockquote{
+		font-size:1.2em;line-height:1.25em; font-style:italic; background:url('../images/blockquote-bg.png') no-repeat 5px 1.2533em; margin-bottom:1.25em;padding:1.2333em 1em .0167em 45px; width:85%;-moz-border-radius: 10px;
+				-webkit-border-radius: 10px;}
+blockquote p{margin-bottom:1.25em}
+
+p.bg{display:none}
+.note{background:#fffcc7 url('note.png') no-repeat 5px 50%;padding:10px 0 10px 42px;border:dashed 1px #f8aa00;display:block}
+.warning{background:#fbd75b url('warning.png') no-repeat 5px 50%;padding:10px 0 10px 42px;border:dashed 1px red;display:block}
+.tip{background:#dff2fc url('tip.png') no-repeat 5px 50%;padding:10px 0 10px 42px;border:dashed 1px #21b7e8;display:block}
+.question{background:#EEE url('question.png') no-repeat 5px 50%;padding:10px 0 10px 42px;border:dashed 1px #CCC;display:block}
+.download{background:#25b3e3 url('download.png') no-repeat 5px 50%;padding:10px 15px 10px 60px;border:solid 2px #EEE;display:inline-block;margin-bottom:.75em;
+font-size:2em;line-height:1.5em;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+
+}
+.button{
+	background:#25b3e3; border:solid 2px #EEE;font-size:2em;line-height:1.5em;
+	-moz-border-radius: 20px; display:inline-block;
+	-webkit-border-radius: 20px;line-height:1.5em;
+	padding:8px; margin-bottom:.75em;	}
+	
+.download a,.button a{text-decoration:none;color:#EEE;}
+
+.note,.warning,.tip,.question{font-size:1.3em;line-height:1.153846153846154em;margin-bottom:1.153846153846154em}
+
+ul li{list-style:square;margin-bottom:1.5em}
+ul.tick li{list-style:none; background:url(tick.png) no-repeat left;padding-left:30px;margin-left:0;}
+ul.arrow li{list-style:none; background:url(arrow.png) no-repeat left;padding-left:28px;margin-left:0;}
